@@ -19,8 +19,10 @@ for follower in profile.get_followers():
     print(follower.username)
 
 # Getting followees of a sepcific user_account:
+follower_name = 'username'
+
 for follower in profile.get_followers():
-    if follower.username == 'srikanthmadanagopal':
+    if follower.username == 'follower_name':
         # Creating and adding follower usernames to a list
         follow_list = []
         count = 0
